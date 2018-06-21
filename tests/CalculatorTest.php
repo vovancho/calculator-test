@@ -22,10 +22,10 @@ class ExampleTest extends TestCase
         $this->calculator->setStrategy($strategy);
 
         $this->setExpectedException(CalculateException::class, 'First variable not integer');
-        $this->assertEquals(3, $this->calculator->result('6', 1));
+        $this->calculator->result('6', 1);
 
         $this->setExpectedException(CalculateException::class, 'Second variable not integer');
-        $this->assertEquals(3, $this->calculator->result(6, '1'));
+        $this->calculator->result(6, '1');
     }
 
     public function testPlus()

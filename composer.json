@@ -1,6 +1,5 @@
 {
     "name": "vovancho/calc-library",
-    "homepage": "http://www.yiiframework.com/",
     "require": {
         "php": ">=5.4.0"
     },

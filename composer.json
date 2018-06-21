@@ -1,0 +1,21 @@
+{
+    "name": "vovancho/calc-library",
+    "homepage": "http://www.yiiframework.com/",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "calc\\": "src/"
+        }
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    }
+}
